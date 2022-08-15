@@ -103,11 +103,12 @@ footer {
     margin-top: 18px;
     text-align: center;
     font-size: 12px;
+    color: #1c1c1ca4;
 }
 
 footer a {
     text-decoration: none;
-    color: #1C1C1C;
+    color: #1c1c1ca4;
 }
 
 @media (max-width: 600px) {
