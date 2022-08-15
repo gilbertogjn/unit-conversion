@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1C1C;
+    font-size: 14px;
+    height: 100vh;
+}
+
+main {
+    width: 500px;
+}
+
+h1 {
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2f7aa5;
+}
+
+p {
+    margin: 10px 0 0 0;
+}
+
+#section-1 {
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5em;
+    background-color: #2E8BC0;
+    padding: 2em;
+}
+
+#section-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    padding: 2em;
+    gap: 1.5em;
+    border-radius: 0 0 5px 5px;
+}
+
+.sub-section {
+    text-align: center;
+    background-color: #F4F4F4;
+    padding: 1.5em;
+    border-radius: 5px;
+}
+
+#input-num {
+    width: 117px;
+    height: 83px;
+    background-color: #2E8BC0;
+    border: 2px solid #7cb9dd;
+    outline: none;
+    text-align: center;
+    font-weight: 800;
+    font-size: 58px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#btn-convert {
+    width: 117px;
+    height: 42px;
+    background-color: #fff;
+    color: #3D3D3D;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#btn-convert:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+footer {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+@media (max-width: 600px) {
+    body {
+        height: 100%;
+    }
+}
